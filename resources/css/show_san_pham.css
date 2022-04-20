@@ -1,0 +1,39 @@
+div#danhSachSP_info {
+    padding-left: 1vw;
+}
+
+div#danhSachSP_length {
+    text-align: right;
+    padding-right: 1vw;
+    padding-top: 1vh;
+}
+
+div#danhSachSP_paginate {
+    text-align: center;
+    padding-top: 1vh;
+    padding-right: 10vw;
+}
+
+div#danhSachSP_paginate>ul>li>a {
+    background-color: #00cc88;
+    color: white;
+    font-weight: bold;
+}
+
+div#danhSachSP_paginate>ul>li>a:hover {
+    background-color: #ff8c00;
+    color: white;
+    font-weight: bold;
+}
+
+/* div#danhSachSP_paginate>ul>li>a:focus {
+    background-color: #ff3366;
+    color: white;
+    font-weight: bold;
+} */
+
+div#danhSachSP_paginate>ul>li.active>a {
+    background-color: #ff3366;
+    color: white;
+    font-weight: bold;
+}
